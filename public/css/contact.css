@@ -1,0 +1,132 @@
+
+.form {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.form__ttl{
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.form__group{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.form__group-rapper{
+  display: flex;
+  width: 75%;
+}
+
+.form__group-label{
+  width: 25%;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.form__group-ctl{
+  width: 75%;
+}
+
+.form__group-ctl-input{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.form__group-ctl-text {
+  width: 100%;
+  height: 120px;
+  resize: none;
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.form__group-rapper-ctl{
+  width: 100%;
+}
+
+.form__rapper-ctl-input{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.form__group-ctl-post{
+  padding: 10px 10px 0 10px;
+}
+
+.form__group-ctl-parts{
+  width: 100%;
+}
+
+.form__group-ctl-ex{
+  padding: 10px 0 0 20px;
+  color: #a9a9a9;
+}
+
+.form__group-ctl-radio{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #a9a9a9;
+  color: black;
+}
+
+.right{
+  padding-right: 30px;
+}
+
+.flex{
+  display: flex;
+}
+
+.form__submit{
+  text-align: center;
+}
+
+.form__submit-button{
+  background-color: black;
+  color: white;
+  padding: 8px 35px; 
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#lastnameError ,#firstnameError ,
+#emailError ,#postcodeError ,
+#adressError ,#optionError , 
+.errorColor ,strong{
+  color: red;
+}
+
+.inpError{
+  border: 1px solid red;
+  background-color: lightpink;
+}
+
+.form__thanks_ttl{
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 100px;
+  font-size: 24px;
+}
+
+.form__return-button{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 8px 35px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}

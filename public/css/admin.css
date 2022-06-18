@@ -1,0 +1,245 @@
+
+
+.admin {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.admin__ttl {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.admin__search {
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.flex {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.admin__search-name {
+  width: 40%;
+}
+
+.admin__search-name label {
+  display: inline-block;
+  width: 30%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.admin__search-name input {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  border-color: #a9a9a9;
+}
+
+.admin__search-gender {
+  width: 50%;
+}
+
+.admin__search-gender .genderlabel {
+  display: inline-block;
+  width: 15%;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.admin__search-gender .genderall ,
+.admin__search-gender .genderman ,
+.admin__search-gender .genderwoman
+{
+  display: inline-block;
+  width: 10%;
+  font-size: 16px;
+  padding-top: 5px;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.admin__search-gender input {
+  width: 35px;
+  height: 35px;
+}
+
+.admin__search-date {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.admin__search-date label {
+  display: inline-block;
+  width: 12%;
+  font-weight: bold;
+}
+
+.admin__search-date input {
+  width: 20%;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #a9a9a9;
+}
+
+.admin__search-date span{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.admin__search-email {
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.admin__search-email label {
+  display: inline-block;
+  width: 12%;
+  font-weight: bold;
+}
+
+.admin__search-email input {
+  width: 20%;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #a9a9a9;
+}
+
+.admin__search-btns {
+  text-align: center;
+}
+
+.admin__search-btn-exec input {
+  background-color: black;
+  color: white;
+  padding: 8px 40px; 
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.admin__search-btn-reset input{
+  font-size: 14px;
+  text-decoration: underline;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.admin__result{
+  margin-top: 50px;
+}
+
+.admin__result-cnt {
+  margin: 30px 0;
+}
+
+
+.admin__result-tbl{
+  width: 100%;
+}
+
+.admin__result-tbl-ttl {
+  border-bottom: 1px solid black;
+}
+
+.admin__result-tbl-id {
+  width: 5%;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.admin__result-tbl-name {
+  width: 15%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.admin__result-tbl-gender {
+  width: 5%;
+  text-align: center;
+}
+
+.admin__result-tbl-email {
+  width: 15%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.admin__result-tbl-opinion {
+  width: 25%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.admin__result-tbl-delete {
+  width: 15%;
+}
+
+.admin__result-form {
+  text-align: center;
+}
+
+.admin__result-form input {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 25px;
+  margin: 5px auto;
+}
+
+.opinion-short {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+svg.w-5.h-5 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #a9a9a9;
+}
+
+.linkflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactCount {
+  margin-bottom: 20px;
+}
+
+.contactLink {
+  margin-bottom: 20px;
+}
+
+.numLink{
+  display: inline-block;
+  padding-bottom: 24px;
+  vertical-align: middle;
+}
+
+.numLink a {
+  text-decoration: none;
+  padding: 3px 10px;
+  border: 1px solid #a9a9a9;
+}
+
+.currentblack {
+  background-color: black;
+  color: white;
+  padding: 3px 10px;
+}

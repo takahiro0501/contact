@@ -1,0 +1,62 @@
+
+CONTACTFORM
+├─app
+│  ├─Http
+│  │  ├─Controllers
+│  │  │      │
+│  │  │      └ ContactController.php //主要機能コントローラー
+│  │  │      
+│  │  └─Requests
+│  │          │
+│  │          └ ClientRequest.php  //サーバー側バリデーション定義
+│  │          
+│  └─Models
+│         │
+│         └Contact.php //対象モデル
+│         
+├─database
+│  │  
+│  ├─factories
+│  │      │
+│  │      └ ContactFactory.php  //テスト用データ定義
+│  │      
+│  ├─migrations
+│  │      │
+│  │      └ 2022_06_12_032028_create_contacts_table.php //テーブル定義
+│  │      
+│  └─seeders
+│          │
+│          ├─ ContactsTableSeeder.php   //テスト用データシーダー
+│          └─ DatabaseSeeder.php        //シーダー実行定義
+│          
+├─public
+│  │      
+│  ├─css
+│  │   ├─ admin.css     //管理システム用CSS
+│  │   ├─ contact.css   //問い合わせフォーム用CSS
+│  │   └─ reset.css     //リセットCSS
+│  │      
+│  └─js
+│      └─ contact.js    //フロント側バリデーション定義・住所自動入力定義
+│          
+├─resources
+│  │       
+│  └─views
+│      │
+│      ├─ AdminPage.blade.php      //管理画面用ブレードファイル
+│      ├─ ComfirmForm.blade.php    //お問い合わせ確認画面ブレードファイル
+│      ├─ ContactForm.blade.php    //お問い合わせ画面ブレードファイル
+│      ├─ ThanksPage.blade.php     //サンクスページブレードファイル
+│      │  
+│      └─vendor
+│           │
+│           └─pagination
+│                 │
+│                 └ contactLink.blade.php  //ページネーション用ブレードファイル
+│                                           //（tailwind.blade.phpファイルを編集）                  
+└─routes
+     │
+     └─ web.php   //ルート定義
+
+
+
